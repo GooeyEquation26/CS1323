@@ -30,7 +30,7 @@ public class Project5 {
 			System.out.println("Enter the next setting (1-5) or -1 to stop.");
 			x = stdin.nextInt();
 			
-			//current number
+			//current number(maybe use switch?)
 			currentSetting = x;
 			if (x == 1) {
 				acc1 += 1;
@@ -48,6 +48,7 @@ public class Project5 {
 			if (currentSetting != -1) {
 				if (currentSetting > previousSetting) {
 					positiveChanges += 1;
+					//could have slimmed these down to 1 line each
 					System.out.println("Positive change: " + previousSetting + " to " + currentSetting);
 					System.out.println("Current setting: " + currentSetting);
 				} else if (currentSetting < previousSetting) {
