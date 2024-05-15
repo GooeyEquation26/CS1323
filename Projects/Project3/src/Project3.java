@@ -5,7 +5,7 @@ import java.util.*;
 public class Project3 {
 	public static void main(String[] args) {
 		Scanner stdin = new Scanner(System.in);
-		//variables
+		//variables (again probably should have used an array, or streamline creation IE "int yards1, yards2, yards3";
 		String yarn1;
 		String yarn2;
 		int yards1;
